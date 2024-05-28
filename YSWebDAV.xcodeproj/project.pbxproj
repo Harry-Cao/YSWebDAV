@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1789AD2EEDC41200F54F59 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1789AC2EEDC41200F54F59 /* PreviewView.swift */; };
 		3EDE343B2C03234200361329 /* YSWebDAVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE343A2C03234200361329 /* YSWebDAVApp.swift */; };
 		3EDE34412C03234300361329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDE34402C03234300361329 /* Assets.xcassets */; };
 		3EDE34442C03234300361329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDE34432C03234300361329 /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E1789AC2EEDC41200F54F59 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		3EDE34372C03234200361329 /* YSWebDAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSWebDAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDE343A2C03234200361329 /* YSWebDAVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSWebDAVApp.swift; sourceTree = "<group>"; };
 		3EDE34402C03234300361329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +107,8 @@
 		3EDE34512C0326E600361329 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3EDE344F2C0326E600361329 /* WebDAVFile.swift */,
 				3EDE34502C0326E600361329 /* WebDAVItem.swift */,
+				3EDE344F2C0326E600361329 /* WebDAVFile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +119,7 @@
 				3EDE34572C0326E600361329 /* WebDAVListView.swift */,
 				3EDE34522C0326E600361329 /* AddWebDAVView.swift */,
 				3EDE34532C0326E600361329 /* FilesView.swift */,
+				3E1789AC2EEDC41200F54F59 /* PreviewView.swift */,
 				3EDE34542C0326E600361329 /* ImagePreviewView.swift */,
 				3EDE34552C0326E600361329 /* PlayerView.swift */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1789AD2EEDC41200F54F59 /* PreviewView.swift in Sources */,
 				3EDE345C2C0326E600361329 /* WebDAVClient.swift in Sources */,
 				3EDE34632C0326E600361329 /* PlayerView.swift in Sources */,
 				3EDE34652C0326E600361329 /* WebDAVListView.swift in Sources */,
