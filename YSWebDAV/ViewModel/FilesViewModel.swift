@@ -26,6 +26,11 @@ final class FilesViewModel: ObservableObject {
         return files.filter({ $0.name.lowercased().contains(searchText.lowercased()) })
     }
 
+    lazy var previewFiles: [WebDAVFile] = {
+        let unPreviewAbles: [FileType] = [.unknown, .folder]
+        return files.filter({ !unPreviewAbles.contains($0.type) })
+    }()
+
     func loadFiles() {
         client?.listDirectory(at: item.path) { result in
             DispatchQueue.main.async {

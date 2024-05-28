@@ -107,8 +107,8 @@
 		3EDE34512C0326E600361329 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3EDE344F2C0326E600361329 /* WebDAVFile.swift */,
 				3EDE34502C0326E600361329 /* WebDAVItem.swift */,
+				3EDE344F2C0326E600361329 /* WebDAVFile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
