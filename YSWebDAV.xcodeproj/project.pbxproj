@@ -19,7 +19,6 @@
 		3EDE34612C0326E600361329 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE34532C0326E600361329 /* FilesView.swift */; };
 		3EDE34622C0326E600361329 /* ImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE34542C0326E600361329 /* ImagePreviewView.swift */; };
 		3EDE34632C0326E600361329 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE34552C0326E600361329 /* PlayerView.swift */; };
-		3EDE34642C0326E600361329 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE34562C0326E600361329 /* PreviewView.swift */; };
 		3EDE34652C0326E600361329 /* WebDAVListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE34572C0326E600361329 /* WebDAVListView.swift */; };
 		3EDE34662C0326E600361329 /* FilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE34592C0326E600361329 /* FilesViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		3EDE34532C0326E600361329 /* FilesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
 		3EDE34542C0326E600361329 /* ImagePreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewView.swift; sourceTree = "<group>"; };
 		3EDE34552C0326E600361329 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		3EDE34562C0326E600361329 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		3EDE34572C0326E600361329 /* WebDAVListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDAVListView.swift; sourceTree = "<group>"; };
 		3EDE34592C0326E600361329 /* FilesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,7 +119,6 @@
 				3EDE34532C0326E600361329 /* FilesView.swift */,
 				3EDE34542C0326E600361329 /* ImagePreviewView.swift */,
 				3EDE34552C0326E600361329 /* PlayerView.swift */,
-				3EDE34562C0326E600361329 /* PreviewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EDE34642C0326E600361329 /* PreviewView.swift in Sources */,
 				3EDE345C2C0326E600361329 /* WebDAVClient.swift in Sources */,
 				3EDE34632C0326E600361329 /* PlayerView.swift in Sources */,
 				3EDE34652C0326E600361329 /* WebDAVListView.swift in Sources */,
