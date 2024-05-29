@@ -5,21 +5,25 @@ YSWebDAV is a simple app to view files by WebDAV. Supports video, audio, image p
 ### WebDAV List
 
 All WebDAV entrances you added would show here. Tap button on the top right of the screen to add WebDAV.
-![IMG_1335(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/9ee8360c-fc7d-40a5-b4dd-c69915e66bce)
+
+![IMG_1335(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/762369a1-5549-4570-a6c2-4e5d2151901b)
 
 ### Add WebDAV
 
 Input server infomations and user credentials, then tap **Test** to make sure server is able to connect. Tap **Save** to save your input.
-![IMG_1341(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/d1aa1060-edef-494e-a8ab-e32ee01cab7f)
+
+![IMG_1341(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/5752f395-17fc-4263-84d7-3169641b0be2)
 
 ### Files
 
 Showing all files under current directory, support searching files by file name.
-![IMG_1337(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/95182bd4-855f-4189-9fbd-871dedc5c3be)
-![IMG_1338(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/e0e4e5f4-c0b5-4844-8e83-26223948e351)
+
+![IMG_1337(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/11b29e48-6665-4a14-9b77-9b286aeb3b2d)
+![IMG_1338(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/5852d228-919a-4552-9485-78864eeb09a0)
 
 ### File Preview
 
 For now, only supports previewing **image**, **video**, **audio**.
-![IMG_1339(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/b6e15935-8161-489f-85af-def6cf095802)
-![IMG_1340(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/6f61057a-1f6a-4939-8b37-2b7e6431d742)
+
+![IMG_1339(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/546f06aa-3b31-4ccf-adb2-fbba9019f5c7)
+![IMG_1340(1)](https://github.com/Harry-Cao/YSWebDAV/assets/61426193/940902df-1fce-4316-a715-53665b6b6e4e)
