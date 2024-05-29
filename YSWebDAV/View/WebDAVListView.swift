@@ -22,7 +22,7 @@ struct WebDAVListView: View {
                         VStack(alignment: .leading, spacing: 8) {
                             Text(item.name)
                                 .font(.system(.title3, weight: .medium))
-                            Text("📃: \(item.baseUrl + item.path)")
+                            Text("📃: \(item.host + item.path)")
                                 .font(.caption)
                             Text("👨🏻: \(item.userName)")
                                 .font(.caption)

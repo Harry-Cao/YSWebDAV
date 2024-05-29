@@ -13,14 +13,14 @@ final class WebDAVItem {
     var name: String
     var userName: String
     var password: String
-    var baseUrl: String
+    var host: String
     var path: String
 
-    init(name: String = "", userName: String = "", password: String = "", baseUrl: String = "", path: String = "") {
+    init(name: String = "", userName: String = "", password: String = "", host: String = "", path: String = "") {
         self.name = name
         self.userName = userName
         self.password = password
-        self.baseUrl = baseUrl
+        self.host = host
         self.path = path
     }
 }

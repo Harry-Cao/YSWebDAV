@@ -15,7 +15,7 @@ final class FilesViewModel: ObservableObject {
 
     init(item: WebDAVItem) {
         self.item = item
-        self.client = WebDAVClient(baseURL: URL(string: item.baseUrl), username: item.userName, password: item.password)
+        self.client = WebDAVClient(baseURL: URL(string: item.host), username: item.userName, password: item.password)
         loadFiles()
     }
 
@@ -40,14 +40,14 @@ final class FilesViewModel: ObservableObject {
     }
 
     func getUrl(file: WebDAVFile) -> URL {
-        return URL(string: "\(item.baseUrl)\(file.path)")!
+        return URL(string: "\(item.host)\(file.path)")!
     }
 
     func itemFromFolder(_ folder: WebDAVFile) -> WebDAVItem {
         return WebDAVItem(name: Tool.fileNameFromPath(folder.path),
                           userName: item.userName,
                           password: item.password,
-                          baseUrl: item.baseUrl,
+                          host: item.host,
                           path: folder.path)
     }
 }

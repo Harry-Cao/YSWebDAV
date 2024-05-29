@@ -15,26 +15,11 @@ struct AddWebDAVView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 8) {
-                TextField(
-                    "name",
-                    text: $item.name
-                )
-                TextField(
-                    "base url",
-                    text: $item.baseUrl
-                )
-                TextField(
-                    "path",
-                    text: $item.path
-                )
-                TextField(
-                    "username",
-                    text: $item.userName
-                )
-                TextField(
-                    "password",
-                    text: $item.password
-                )
+                TextField("Name", text: $item.name)
+                TextField("Host", text: $item.host)
+                TextField("Path", text: $item.path)
+                TextField("Username", text: $item.userName)
+                TextField("Password", text: $item.password)
                 Button(action: {
                     addItem()
                     dismiss()
