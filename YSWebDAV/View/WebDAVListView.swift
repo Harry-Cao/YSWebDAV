@@ -11,6 +11,7 @@ import SwiftData
 struct WebDAVListView: View {
     @Query private var items: [WebDAVItem]
     @Environment(\.modelContext) private var modelContext
+    @State private var addItemViewPresenting = false
 
     var body: some View {
         NavigationView {
@@ -22,10 +23,20 @@ struct WebDAVListView: View {
                         VStack(alignment: .leading, spacing: 8) {
                             Text(item.name)
                                 .font(.system(.title3, weight: .medium))
-                            Text("📃: \(item.host + item.path)")
-                                .font(.caption)
-                            Text("👨🏻: \(item.userName)")
-                                .font(.caption)
+                            HStack(spacing: 8) {
+                                Image(systemName: "link")
+                                    .frame(width: 8, height: 8)
+                                Text(item.host + item.path)
+                                    .font(.caption)
+                            }
+                            .foregroundStyle(.gray)
+                            HStack(spacing: 8) {
+                                Image(systemName: "person")
+                                    .frame(width: 8, height: 8)
+                                Text(item.userName)
+                                    .font(.caption)
+                            }
+                            .foregroundStyle(.gray)
                         }
                     }
                 }
@@ -35,9 +46,12 @@ struct WebDAVListView: View {
                 }
             }
             .navigationTitle("WebDAV List")
+            .sheet(isPresented: $addItemViewPresenting, content: {
+                AddWebDAVView()
+            })
             .toolbar {
-                NavigationLink {
-                    AddWebDAVView()
+                Button {
+                    addItemViewPresenting = true
                 } label: {
                     Image(systemName: "plus")
                 }

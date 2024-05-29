@@ -27,7 +27,8 @@ final class FilesViewModel: ObservableObject {
     }
 
     func loadFiles() {
-        client?.listDirectory(at: item.path) { result in
+        client?.listDirectory(at: item.path) { [weak self] result in
+            guard let self else { return }
             DispatchQueue.main.async {
                 switch result {
                 case .success(let files):

@@ -24,3 +24,9 @@ final class WebDAVItem {
         self.path = path
     }
 }
+
+extension WebDAVItem: NSCopying {
+    func copy(with zone: NSZone? = nil) -> Any {
+        return WebDAVItem(name: self.name, userName: self.userName, password: self.password, host: self.host, path: self.path)
+    }
+}
