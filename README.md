@@ -1,6 +1,6 @@
 ## Introduction
 
-YSWebDAV is a simple app to view files by WebDAV. Supports video, audio, image previewing. Developed by SwiftUI. You could connect to your WebDAV server and do some media related works base on this repostory.
+YSWebDAV is a simple app to view files by WebDAV. Supports video, audio, image previewing. Developed by SwiftUI. You could connect to your WebDAV server and do some media related works base on this repository.
 
 ### WebDAV List
 
