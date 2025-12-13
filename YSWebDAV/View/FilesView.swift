@@ -22,12 +22,10 @@ struct FilesView: View {
                     switch file.type {
                     case .folder:
                         FilesView(viewModel: FilesViewModel(item: viewModel.itemFromFolder(file)))
-                    case .video, .audio:
-                        PlayerView(url: viewModel.getUrl(file: file))
-                    case .image:
-                        ImagePreviewView(url: viewModel.getUrl(file: file))
                     case .unknown:
                         EmptyView()
+                    default:
+                        PreviewView(viewModel: viewModel, fileId: file.id)
                     }
                 } label: {
                     HStack {
